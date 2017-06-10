@@ -206,6 +206,12 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    padding: 0px;
+  }
+  .navbar-custom .navbar-brand > img {
+    heigth: 100%;
+    padding: 15px;
+    width: auto;
   }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
@@ -358,7 +364,7 @@ section h3.section-subheading {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #eventuality .portfolio-item {
     margin: 0 0 30px;
   }
 }
@@ -725,10 +731,12 @@ ul.social-buttons li a:active {
 ::-moz-selection {
   text-shadow: none;
   background: #7030a0;
+  color: white;
 }
 ::selection {
   text-shadow: none;
   background: #7030a0;
+  color: white;
 }
 img::selection {
   background: transparent;
