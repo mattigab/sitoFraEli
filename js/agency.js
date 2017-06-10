@@ -60,7 +60,8 @@ setInterval(function () {
     seconds = parseInt(seconds_left % 60);
      
     // format countdown string + set tag value
-    countdown.innerHTML = '<p class="days lead">' + days +  ' <b>Giorni</b></p> <p class="hours lead">' + hours + ' <b>Ore</b></p> <p class="minutes lead">'
-    + minutes + ' <b>Minuti</b></p> <p class="seconds lead">' + seconds + ' <b>Secondi</b></span>';  
+    countdown.innerHTML = '<h3><p class="lead">'+days+' <b>giorni</b> '+hours+' <b>ore</b> '+minutes+' <b>Minuti</b> '+seconds+' <b>Secondi</b></p></h3>';  
  
 }, 1000);
+
+
