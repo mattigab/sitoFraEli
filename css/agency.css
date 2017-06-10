@@ -182,10 +182,17 @@ fieldset[disabled] .btn-xl.active {
   color: #7030a0;
   outline: none;
 }
+.navbar-custom .navbar-nav > .active > a.home {
+  background-color: transparent;
+}
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
   background-color: #7030a0;
+}
+.navbar-custom .navbar-nav > .active > a.home:hover,
+.navbar-custom .navbar-nav > .active > a.home:focus {
+  background-color: transparent;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
