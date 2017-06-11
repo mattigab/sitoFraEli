@@ -306,6 +306,14 @@ section h3.section-subheading {
     padding: 150px 0;
   }
 }
+.place-address {
+  margin-top: 3%;
+}
+@media (min-width: 992px) {
+  .pull-md-right {
+    text-align: right;
+  }
+}
 .service-heading {
   margin: 15px 0;
   text-transform: none;
