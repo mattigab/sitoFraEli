@@ -775,3 +775,63 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: @theme-primary;
 }
+
+.trip-steps {
+  position: relative;
+  .trip-intro,
+  .trip-outro {
+    display: block;
+    text-align: center;
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  .trip-step {
+    position: relative;
+    margin: 50px 0;
+    &:after {
+      content: '';
+      position: relative;
+      display: block;
+      clear: both;
+    }
+    .step-point {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+    }
+    .trip-text-content {
+      position: relative;
+      width: 48%;
+      float: left;
+      text-align: right;
+      .trip-title {
+        font-size: 2rem;
+        margin: 0;
+      }
+      .trip-subtitle {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 5px;
+        color: @theme-primary;
+        text-transform: uppercase;
+      }
+      .trip-image {
+        margin-top: 15px;
+        img {
+          height: auto;
+          max-width: 100%;
+        }
+      }
+    }
+    &:nth-child(odd) {
+      .trip-text-content {
+        float: right;
+        text-align: left;
+      }
+    }
+  }
+}

@@ -206,7 +206,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" data-mh="evenienze">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -220,7 +220,7 @@
                         <p class="text-muted">Estetiste di fiducia</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" data-mh="evenienze">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -234,7 +234,7 @@
                         <p class="text-muted">Parrucchiere di fiducia</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" data-mh="evenienze">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -248,7 +248,7 @@
                         <p class="text-muted">Il top della cucina</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" data-mh="evenienze">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -277,60 +277,88 @@
                 </div>
             </div>
 		-->
-            <div class="container-fluid">
-                <img src="img/wip.png" class="img-responsive">
-            </div>
-
             <div class="row">
                 <p class="text lead">Dopo tanto impegno ed attesa, per noi è giunto il momento di goderci il meritato riposo!</p>
                 <p class="text lead">Ci addentreremo in una terra meravigliosa e popolata da insolite creature: tra gazzelle e pinguini (<i>ci sono davvero!</i>), leoni e babbuini (<i>questi forse no...</i>), ti penseremo dal sud Africa!</p>
                 <p class="text lead">Ecco alcune tappe:</p>
             </div>
             <br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-responsive" src="img/clessidra-sopra.png" alt="">
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/pallino-x1.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Prima tappa</h4>
-                                    <h4 class="subheading">Città del Capo</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/pallino-x1.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Seconda tappa</h4>
-                                    <h4 class="subheading">Mpumalanga</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-responsive" src="img/clessidra-sotto.png" alt="">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-	    </div>
+
+            <div class="trip-steps">
+              <div class="trip-intro">
+                <img src="img/clessidra-sopra.png" alt="">
+              </div>
+              <div class="trip-step">
+                <img class="step-point" src="img/pallino-x1.png" alt="">
+                <div class="trip-text-content">
+                  <h4 class="trip-subtitle">Prima tappa</h4>
+                  <h3 class="trip-title">Città del Capo</h3>
+                  <figure class="trip-image">
+                    <img src="img/tappe/01.jpg" />
+                  </figure>
+                </div><!--trip-text-content-->
+              </div><!--trip-step-->
+
+              <div class="trip-step">
+                <img class="step-point" src="img/pallino-x1.png" alt="">
+                <div class="trip-text-content">
+                  <h4 class="trip-subtitle">Seconda tappa</h4>
+                  <h3 class="trip-title">Mpumalanga</h3>
+                  <figure class="trip-image">
+                    <img src="img/tappe/02.jpg" />
+                  </figure>
+                </div><!--trip-text-content-->
+              </div><!--trip-step-->
+
+              <div class="trip-step">
+                <img class="step-point" src="img/pallino-x1.png" alt="">
+                <div class="trip-text-content">
+                  <h4 class="trip-subtitle">Terza tappa</h4>
+                  <h3 class="trip-title">Limpopo</h3>
+                  <figure class="trip-image">
+                    <img src="img/tappe/03.jpg" />
+                  </figure>
+                </div><!--trip-text-content-->
+              </div><!--trip-step-->
+
+              <div class="trip-step">
+                <img class="step-point" src="img/pallino-x1.png" alt="">
+                <div class="trip-text-content">
+                  <h4 class="trip-subtitle">Quarta tappa</h4>
+                  <h3 class="trip-title">Bourke's Luck Potholes</h3>
+                  <figure class="trip-image">
+                    <img src="img/tappe/04.jpg" />
+                  </figure>
+                </div><!--trip-text-content-->
+              </div><!--trip-step-->
+
+              <div class="trip-step">
+                <img class="step-point" src="img/pallino-x1.png" alt="">
+                <div class="trip-text-content">
+                  <h4 class="trip-subtitle">Quinta tappa</h4>
+                  <h3 class="trip-title">Cascate Victoria</h3>
+                  <figure class="trip-image">
+                    <img src="img/tappe/05.jpg" />
+                  </figure>
+                </div><!--trip-text-content-->
+              </div><!--trip-step-->
+
+              <div class="trip-step">
+                <img class="step-point" src="img/pallino-x1.png" alt="">
+                <div class="trip-text-content">
+                  <h4 class="trip-subtitle">Sesta tappa</h4>
+                  <h3 class="trip-title">Mauritius</h3>
+                  <figure class="trip-image">
+                    <img src="img/tappe/06.jpg" />
+                  </figure>
+                </div><!--trip-text-content-->
+              </div><!--trip-step-->
+
+              <div class="trip-outro">
+                <img src="img/clessidra-sotto.png" alt="">
+              </div>
+            </div><!--trip-steps-->
+
         </div>
     </section>
 
@@ -353,7 +381,7 @@
 					IBAN IT73X0323901600100000164924
 					</p>
 					<br><br>
-					<p class="text lead">Qualsiasi (altro) dono vorrai farci sarà certamente apprezzato, ma mai quanto la tua presenza. Grazie.</p>
+					<p class="text lead">Qualsiasi altro dono vorrai farci sarà certamente apprezzato, ma mai quanto la tua presenza. Grazie.</p>
                     </div>
             </div>
         </div>
@@ -596,134 +624,75 @@
                 <div class="container">
                     <div class="row">
                         <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Rancio del pirata<span class="glyphicon glyphicon-euro" aria-hidden="true"></h2>
-                                    <p class="item-intro text-muted">Il miglior rapporto qualità/prezzo</p>
-                                <div class="col-xs-6 col-sm-6 col-md-6">
-                                    <img class="img-responsive img-centered" src="img/pirata.jpg" alt="">
-                                </div>
-                                <div class="col-xs-6 col-sm-6 col-md-6">
-                                    <p>
-                                    <ul class="list-unstyled">
-                                    <li>
-                                        <address>
-                                        <p class="lead text-left"><b>Trattoria Franca &amp; Luciano (<i>tipico e casereccio</i>)</b>
-                                        <br>
-                                        Via Livrasco, 58
-                                        <br>
-                                        26022 Castelverde (CR)<br>
-                                        <span class="glyphicon glyphicon-earphone" aria-hidden="true">
-                                        (0039) 0372427259
-                                        </address></p>
-                                    </li>
-                                    <li>
-                                        <address>
-                                        <p class="lead text-left"><b>Tramvai (<i>polletto arrosto</i>)</b>
-                                        <br>
-                                        Via Eridano, 2<br>
-                                        26100 Cremona (CR)<br>
-                                        <span class="glyphicon glyphicon-earphone" aria-hidden="true">
-                                        (0039) 0372413902
-                                        </address></p>
-                                    </li>
-                                    <li>
-                                        <address>
-                                        <p class="lead text-left"><b>Fabbrica di Pedavena (<i>birra e tanta varietà</i>)</b><br>
-                                        Via Bergamo, 19<br>
-                                        26100 Cremona (CR)<br>
-                                        <span class="glyphicon glyphicon-earphone" aria-hidden="true">
-                                        (0039) 0372458149
-                                        </address></p>
-                                    </li>
-                                    <li>
-                                        <address>
-                                        <p class="lead text-left"><b>Il cortile (<i>pizza di ogni tipo</i>)</b>
-                                        <br>
-                                        Via Livrasco, 10<br>
-                                        26100 Cremona (CR)<br>
-                                        <span class="glyphicon glyphicon-earphone" aria-hidden="true">
-                                        (0039) 0372562038
-                                        </address></p>
-                                    </li>
-                                    <li>
-                                        <address>
-                                        <p class="lead text-left"><b>Il nido (<i>solo pizza, super cheap</i>)</b>
-                                        <br>
-                                        Largo Rodolfo Benini, 1<br>
-                                        26100 Cremona (CR)<br>
-                                        <span class="glyphicon glyphicon-earphone" aria-hidden="true">
-                                        (0039) 3884010874
-                                        </address></p>
-                                    </li>
-                                    </ul>
-                                    </p>
-                                </div>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">indietro</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Places Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <!-- Project Details Go Here -->
+                            <h2>Rancio del pirata<span class="glyphicon glyphicon-euro" aria-hidden="true"></h2>
+                                <p class="item-intro text-muted">Il miglior rapporto qualità/prezzo</p>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <img class="img-responsive img-centered" src="img/pirata.jpg" alt="">
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <p>
+                                <ul class="list-unstyled">
+                                <li>
+                                    <address>
+                                    <p class="lead text-left"><b>Trattoria Franca &amp; Luciano (<i>tipico e casereccio</i>)</b>
+                                    <br>
+                                    Via Livrasco, 58
+                                    <br>
+                                    26022 Castelverde (CR)<br>
+                                    <span class="glyphicon glyphicon-earphone" aria-hidden="true">
+                                    (0039) 0372427259
+                                    </address></p>
+                                </li>
+                                <li>
+                                    <address>
+                                    <p class="lead text-left"><b>Tramvai (<i>polletto arrosto</i>)</b>
+                                    <br>
+                                    Via Eridano, 2<br>
+                                    26100 Cremona (CR)<br>
+                                    <span class="glyphicon glyphicon-earphone" aria-hidden="true">
+                                    (0039) 0372413902
+                                    </address></p>
+                                </li>
+                                <li>
+                                    <address>
+                                    <p class="lead text-left"><b>Fabbrica di Pedavena (<i>birra e tanta varietà</i>)</b><br>
+                                    Via Bergamo, 19<br>
+                                    26100 Cremona (CR)<br>
+                                    <span class="glyphicon glyphicon-earphone" aria-hidden="true">
+                                    (0039) 0372458149
+                                    </address></p>
+                                </li>
+                                <li>
+                                    <address>
+                                    <p class="lead text-left"><b>Il cortile (<i>pizza di ogni tipo</i>)</b>
+                                    <br>
+                                    Via Livrasco, 10<br>
+                                    26100 Cremona (CR)<br>
+                                    <span class="glyphicon glyphicon-earphone" aria-hidden="true">
+                                    (0039) 0372562038
+                                    </address></p>
+                                </li>
+                                <li>
+                                    <address>
+                                    <p class="lead text-left"><b>Il nido (<i>solo pizza, super cheap</i>)</b>
+                                    <br>
+                                    Largo Rodolfo Benini, 1<br>
+                                    26100 Cremona (CR)<br>
+                                    <span class="glyphicon glyphicon-earphone" aria-hidden="true">
+                                    (0039) 3884010874
+                                    </address></p>
+                                </li>
+                                </ul>
+                                </p>
                             </div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">indietro</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
 
     <!-- Modal Maps -->
@@ -795,6 +764,7 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
 
 </body>
 

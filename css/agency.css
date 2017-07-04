@@ -779,3 +779,61 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #7030a0;
 }
+.trip-steps {
+  position: relative;
+}
+.trip-steps .trip-intro,
+.trip-steps .trip-outro {
+  display: block;
+  text-align: center;
+}
+.trip-steps .trip-intro img,
+.trip-steps .trip-outro img {
+  height: auto;
+  max-width: 100%;
+}
+.trip-steps .trip-step {
+  position: relative;
+  margin: 50px 0;
+}
+.trip-steps .trip-step:after {
+  content: '';
+  position: relative;
+  display: block;
+  clear: both;
+}
+.trip-steps .trip-step .step-point {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.trip-steps .trip-step .trip-text-content {
+  position: relative;
+  width: 48%;
+  float: left;
+  text-align: right;
+}
+.trip-steps .trip-step .trip-text-content .trip-title {
+  font-size: 2rem;
+  margin: 0;
+}
+.trip-steps .trip-step .trip-text-content .trip-subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #7030a0;
+  text-transform: uppercase;
+}
+.trip-steps .trip-step .trip-text-content .trip-image {
+  margin-top: 15px;
+}
+.trip-steps .trip-step .trip-text-content .trip-image img {
+  height: auto;
+  max-width: 100%;
+}
+.trip-steps .trip-step:nth-child(odd) .trip-text-content {
+  float: right;
+  text-align: left;
+}
