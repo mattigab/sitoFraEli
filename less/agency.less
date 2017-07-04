@@ -782,6 +782,10 @@ body {
 
 .trip-steps {
   position: relative;
+  @media (max-width:767px) {
+    max-width: 550px;
+    margin: auto;
+  }
   .trip-intro,
   .trip-outro {
     display: block;
@@ -789,6 +793,12 @@ body {
     img {
       height: auto;
       max-width: 100%;
+    }
+    @media (max-width:767px) {
+      text-align: left;
+      img {
+        width: 60px;
+      }
     }
   }
   .trip-step {
@@ -805,12 +815,21 @@ body {
       left: 50%;
       transform: translate(-50%, -50%);
       position: absolute;
+      @media (max-width:767px) {
+        left: 30px;
+      }
     }
     .trip-text-content {
       position: relative;
       width: 48%;
       float: left;
       text-align: right;
+      @media (max-width:767px) {
+        width: 100%;
+        padding-left: 60px;
+        float: left !important;
+        text-align: left !important;
+      }
       .trip-title {
         font-size: 2rem;
         margin: 0;

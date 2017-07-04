@@ -786,6 +786,12 @@ body {
 .trip-steps {
   position: relative;
 }
+@media (max-width: 767px) {
+  .trip-steps {
+    max-width: 550px;
+    margin: auto;
+  }
+}
 .trip-steps .trip-intro,
 .trip-steps .trip-outro {
   display: block;
@@ -795,6 +801,16 @@ body {
 .trip-steps .trip-outro img {
   height: auto;
   max-width: 100%;
+}
+@media (max-width: 767px) {
+  .trip-steps .trip-intro,
+  .trip-steps .trip-outro {
+    text-align: left;
+  }
+  .trip-steps .trip-intro img,
+  .trip-steps .trip-outro img {
+    width: 60px;
+  }
 }
 .trip-steps .trip-step {
   position: relative;
@@ -812,11 +828,24 @@ body {
   transform: translate(-50%, -50%);
   position: absolute;
 }
+@media (max-width: 767px) {
+  .trip-steps .trip-step .step-point {
+    left: 30px;
+  }
+}
 .trip-steps .trip-step .trip-text-content {
   position: relative;
   width: 48%;
   float: left;
   text-align: right;
+}
+@media (max-width: 767px) {
+  .trip-steps .trip-step .trip-text-content {
+    width: 100%;
+    padding-left: 60px;
+    float: left !important;
+    text-align: left !important;
+  }
 }
 .trip-steps .trip-step .trip-text-content .trip-title {
   font-size: 2rem;
