@@ -4,8 +4,12 @@
 // Global Components
 
 body {
-    overflow-x: hidden;
-    .body-font;
+  overflow-x: hidden;
+  .body-font;
+  padding-top: 50px;
+  @media screen and (min-width: 768px) {
+    padding-top: 0px;
+  }
 }
 
 .text-muted {
@@ -192,8 +196,8 @@ header {
     text-align: center;
     color: white;
     .intro-text {
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 0;
+        padding-bottom: 70%;
         .intro-lead-in {
             .serif-font;
             font-style: italic;
