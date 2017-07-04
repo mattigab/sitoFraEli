@@ -84,14 +84,19 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @gray-darker;
     border-color: transparent;
     .navbar-brand {
-        color: @theme-primary;
-        .script-font;
-        &:hover,
-        &:focus,
-        &:active,
-        &.active {
-            color: darken(@theme-primary, 10%);
-        }
+      padding: 7px 15px;
+      color: @theme-primary;
+      .script-font;
+      &:hover,
+      &:focus,
+      &:active,
+      &.active {
+          color: darken(@theme-primary, 10%);
+      }
+      img {
+        max-height: 40px;
+        padding: 0;
+      }
     }
     .navbar-collapse {
         border-color: fade(white, 2%);
@@ -157,8 +162,7 @@ h1, h2, h3, h4, h5, h6 {
             padding: 0px;
         }
         .navbar-brand>img {
-            heigth: 100%;
-            padding: 15px;
+            max-height: 45px;
             width: auto;
         }
         .navbar-nav>.active>a {
