@@ -17,9 +17,9 @@
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
@@ -90,32 +90,39 @@
     <section id="presentation">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Elisabetta e Francesco</h2>
-                    <h3 class="section-subheading text-muted">Sabato 2 settembre 2017</h3>
-                </div>
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Elisabetta e Francesco</h2>
+                <h3 class="section-subheading" id="wedding-date">Sabato 2 settembre 2017</h3>
+              </div>
             </div>
             <div class="row">
-                    <div class="container-fluid">
-                    <p class="text lead">Il giorno del nostro matrimonio si sta avvicinando e ci piacerebbe poterlo vivere con tutti i nostri amici e parenti.</p>
-                    <p class="text lead">Cremona e Firenze si incontreranno per essere con noi nel giorno speciale che segnerà l’inizio della nostra vita insieme!</p>
+              <div class="col-md-8 col-md-offset-2 text-center">
+                <p class="text lead">Il giorno del nostro matrimonio si sta avvicinando e ci piacerebbe poterlo vivere con tutti i nostri amici e parenti.</p>
+                <p class="text lead">Cremona e Firenze si incontreranno per essere con noi nel giorno speciale che segnerà l’inizio della nostra vita insieme!</p>
+              </div>
+            </div>
+            <br>
+            <div class="text-center">
+              <i class="text lead">Quando?</i>
+  	          <p class="text lead text-bold">Sabato 2 settembre 2017<br />alle ore 15,30</p>
 
-                    <i class="text lead">Quando?</i>
-					<p class="text lead">Sabato 2 settembre 2017 alle ore 15,30</p>
-
-					<i class="text lead">Dove?</i>
-					<p class="text lead">Nella Chiesa di San Francesco d’Assisi, a Cremona</p>
-
-					<p class="text lead">Nel frattempo, per accorciare le distanze in questo tempo d’attesa, potrai trovare su questa pagina informazioni utili e indicazioni d’ogni genere.</p>
-                    </div>
+    					<i class="text lead">Dove?</i>
+    					<p class="text lead text-bold">Nella Chiesa di<br>San Francesco d’Assisi,<br>a Cremona</p>
             </div>
             <br>
 
             <div class="row">
-            <div class="col-sm-6 col-md-6 col-xs-6 image-container">
-				<img src="img/clessidra.png" class="img-responsive" alt="clessidra">
-			</div>
-			<div class="container-fluid col-sm-6 col-md-6 col-xs-6">
+              <div class="col-md-8 col-md-offset-2 text-center">
+				        <p class="text lead">Nel frattempo, per accorciare le distanze in questo tempo d’attesa, potrai trovare su questa pagina informazioni utili e indicazioni d’ogni genere.</p>
+               </div>
+            </div>
+            <br>
+
+            <div class="row">
+              <div class="col-sm-4 col-md-4 col-xs-4 col-sm-offset-1 image-container text-center">
+		            <img src="img/clessidra.png" class="img-responsive" style="display: inline-block;" alt="clessidra">
+	            </div>
+		           <div class="container-fluid col-sm-7 col-md-7 col-xs-8">
                 <div id="countdown"></div>
                 <br>
 				<p class="text lead text-left">Manca poco, stay tuned!
@@ -128,7 +135,7 @@
     </section>
     <!-- Luoghi d'interesse Section -->
     <section id="places" class="bg-light-gray">
-    	<div class="container-fluid">
+    	<div class="container">
     		<div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Luoghi d'interesse</h2>
@@ -370,11 +377,7 @@
         </div>
     </section>
 
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
+    <!-- Evenienza Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -388,7 +391,7 @@
                     <div class="row">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Se bella vuoi apparire</h2>
+                                <h2 class="lead">Se bella vuoi apparire</h2>
                                     <p class="item-intro text-muted">Lista delle estetiste</p>
                                 <div class="col-sm-6 col-md-6">
                                     <img class="img-responsive img-centered img-rounded" src="img/apparire.jpg" alt="">
@@ -447,15 +450,15 @@
                                     </ul>
                                     </p>
                                 </div>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">indietro</button>
                             </div>
                     </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Portfolio Modal 2 -->
+    <!-- Evenienza Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -469,7 +472,7 @@
                     <div class="row">
                         <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Messa in piega perfetta</h2>
+                                <h2 class="lead">Messa in piega perfetta</h2>
                                 <p class="item-intro text-muted">Lista delle parrucchiere</p>
                                 <div class="col-sm-6 col-md-6">
                                     <img class="img-responsive img-centered img-rounded" src="img/messa-in-piega.jpg" alt="">
@@ -529,15 +532,15 @@
                                     </ul>
                                     </p>
                                 </div>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">indietro</button>
                             </div>
                     </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Portfolio Modal 3 -->
+    <!-- Evenienza Modal 3 -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -551,7 +554,7 @@
                     <div class="row">
                         <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Pasto da sultano <span class="glyphicon glyphicon-euro" aria-hidden="true"></span><span class="glyphicon glyphicon-euro" aria-hidden="true"></span><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></h2>
+                                <h2 class="lead">Pasto da sultano <span class="glyphicon glyphicon-euro" aria-hidden="true"></span><span class="glyphicon glyphicon-euro" aria-hidden="true"></span><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></h2>
                                     <p class="item-intro text-muted">Il top della cucina</p>
                                 <div class="col-sm-6 col-md-6">
                                     <img class="img-responsive img-centered img-rounded" src="img/sultano.jpg" alt="">
@@ -610,29 +613,29 @@
                                     </ul>
                                     </p>
                                 </div>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">indietro</button>
                         </div>
                     </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Portfolio Modal 4 -->
+    <!-- Evenienza Modal 4 -->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl">
+                  </div>
                 </div>
+              </div>
                 <div class="container">
                     <div class="row">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Rancio del pirata <span class="glyphicon glyphicon-euro" aria-hidden="true"></span></h2>
+                            <h2 class="lead">Rancio del pirata <span class="glyphicon glyphicon-euro" aria-hidden="true"></span></h2>
                             <p class="item-intro text-muted">Il miglior rapporto qualità/prezzo</p>
                             <div class="col-sm-6 col-md-6">
                               <img class="img-responsive img-centered img-rounded" src="img/pirata.jpg" alt="">
@@ -703,9 +706,9 @@
                                 </ul>
                                 </p>
                             </div>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal">indietro</button>
                         </div>
                     </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
                 </div>
             </div>
         </div>
@@ -713,53 +716,71 @@
 
 
     <!-- Modal Maps -->
-    <div class="modal fade" id="SanFrancescoMaps" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="portfolio-modal modal fade" id="SanFrancescoMaps" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
       <div class="modal-dialog" role="document">
+
         <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title lead">Chiesa di San Francesco</h4>
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
           </div>
           <div class="modal-body">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2814.212381536813!2d10.0414987!3d45.142294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe1f6dd8f1c30d3ea!2sParrocchia+S.Francesco+D&#39;Assisi!5e0!3m2!1sit!2sit!4v1497292309395" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <a href="https://goo.gl/maps/smpNnbZvv9S2" type="button" class="btn btn-primary" role="button" target="_blank">Apri in Google Maps</a>
+            <div class="container">
+              <h2 class="modal-title lead">Chiesa di San Francesco</h2>
+              <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2814.212381536813!2d10.0414987!3d45.142294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe1f6dd8f1c30d3ea!2sParrocchia+S.Francesco+D&#39;Assisi!5e0!3m2!1sit!2sit!4v1497292309395" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div><!--map-wrapper-->
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <a href="https://goo.gl/maps/smpNnbZvv9S2" type="button" class="btn btn-primary" role="button" target="_blank">Apri in Google Maps</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="VillaAffaitatiMaps" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="portfolio-modal modal fade" id="VillaAffaitatiMaps" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title lead">Villa Affaitati</h4>
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
           </div>
           <div class="modal-body">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1405.7672946004716!2d9.8682897!3d45.1965167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47811dbe95ddfa2b%3A0x1d936462efc16c6f!2sVilla+Affaitati!5e0!3m2!1sit!2sit!4v1497292594440" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="container">
+              <h2 class="modal-title lead">Villa Affaitati</h2>
+              <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1405.7672946004716!2d9.8682897!3d45.1965167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47811dbe95ddfa2b%3A0x1d936462efc16c6f!2sVilla+Affaitati!5e0!3m2!1sit!2sit!4v1497292594440" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <a href="https://goo.gl/maps/oMmFticAirw" type="button" class="btn btn-primary" role="button" target="_blank">Apri in Google Maps</a>
+            </div><!--continer-->
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <a href="https://goo.gl/maps/oMmFticAirw" type="button" class="btn btn-primary" role="button" target="_blank">Apri in Google Maps</a>
-          </div>
+
         </div>
       </div>
     </div>
-    <div class="modal fade" id="CascinaMoreniMaps" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="portfolio-modal modal fade" id="CascinaMoreniMaps" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title lead">Cascina Fabio Moreni</h4>
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
           </div>
           <div class="modal-body">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2814.4769102580976!2d9.99864381554653!3d45.13693477909844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4780fddbc696b96d%3A0xd5c9429dec65ee08!2sCASCINA+MORENI!5e0!3m2!1sit!2sit!4v1497292796464" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <a href="https://goo.gl/maps/q6ZGzE4qQi92" type="button" class="btn btn-primary" role="button" target="_blank">Apri in Google Maps</a>
+            <div class="container">
+              <h2 class="modal-title lead">Cascina Fabio Moreni</h2>
+              <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2814.4769102580976!2d9.99864381554653!3d45.13693477909844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4780fddbc696b96d%3A0xd5c9429dec65ee08!2sCASCINA+MORENI!5e0!3m2!1sit!2sit!4v1497292796464" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <a href="https://goo.gl/maps/q6ZGzE4qQi92" type="button" class="btn btn-primary" role="button" target="_blank">Apri in Google Maps</a>
+            </div>
           </div>
         </div>
       </div>

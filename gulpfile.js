@@ -7,6 +7,16 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
+const autoprefixer = require('gulp-autoprefixer');
+
+const autoprefixedOptions = {
+  browsers: [
+    "last 10 versions",
+    "Explorer >= 8",
+    "Firefox > 3"
+  ],
+  cascade: false
+}
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -33,6 +43,7 @@ gulp.task('minify-css', ['less'], function() {
     return gulp.src('css/agency.css')
         .pipe(cleanCSS({ compatibility: 'ie8' }))
         .pipe(rename({ suffix: '.min' }))
+        .pipe(autoprefixer(autoprefixedOptions))
         .pipe(gulp.dest('css'))
         .pipe(browserSync.reload({
             stream: true

@@ -13,7 +13,22 @@ body {
 }
 
 .text-muted {
-    color: @gray-light;
+  color: @gray-light
+}
+.text-primary {
+  color: @theme-primary;
+}
+
+#wedding-date {
+  font-size: 1.8em;
+  color: @theme-primary;
+  @media screen and (min-width: 768px) {
+    font-size: 2em;
+  }
+}
+
+.text-bold {
+  font-weight: 700;
 }
 
 .text-primary {
@@ -715,6 +730,9 @@ ul.social-buttons {
         }
         img {
             margin-bottom: 30px;
+        }
+        .map-wrapper {
+          margin: 50px 0;
         }
     }
     .close-modal {

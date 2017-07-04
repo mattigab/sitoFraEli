@@ -19,6 +19,21 @@ body {
 .text-primary {
   color: #7030a0;
 }
+#wedding-date {
+  font-size: 1.8em;
+  color: #7030a0;
+}
+@media screen and (min-width: 768px) {
+  #wedding-date {
+    font-size: 2em;
+  }
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-primary {
+  color: #7030a0;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -730,6 +745,9 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+}
+.portfolio-modal .modal-content .map-wrapper {
+  margin: 50px 0;
 }
 .portfolio-modal .close-modal {
   position: absolute;
